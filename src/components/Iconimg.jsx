@@ -67,3 +67,13 @@ export const Accordionbtn = () => {
         </div>
     )
 }
+
+export const Accordionbtn2 = () => {
+    return (
+        <div className="rounded-[50%] w-[36px] h-[36px] transition-all duration-700 ease-linear flex items-center justify-center bg-white">
+            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.7143 8.99902L7.99997 3.37402L2.28568 8.99902L-2.95639e-05 7.87402L7.99997 -0.000976562L16 7.87402L13.7143 8.99902Z" fill="#0A4740" />
+            </svg>
+        </div>
+    )
+}
