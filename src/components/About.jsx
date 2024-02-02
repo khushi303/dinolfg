@@ -6,7 +6,7 @@ import Chutkudinosorimg from '../assets/images/webp/chutkudragon.webp';
 const About = () => {
     return (
         <>
-            <div className='bg-[#09655A] sm:pt-[76px] pt-[8px] sm:pb-[17px] pb-[30px] mt-[-2px] relative'>
+            <div id='About' className='bg-[#09655A] sm:pt-[76px] pt-[8px] sm:pb-[17px] pb-[30px] mt-[-2px] relative'>
                 <div className='container mx-auto xl:max-w-[1157px] px-3 xl:px-6 relative z-20'>
                     <div className='flex items-center justify-center sm:flex-row flex-col sm:gap-[22px] gap-[5px]'>
                         <h3 data-aos="fade-down-right" className='ff_chewy sm:text-[64px] text-[40px] font-normal text-white leading-[132%]'>About</h3>

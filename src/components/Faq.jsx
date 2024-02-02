@@ -32,7 +32,7 @@ const AccodianSec = () => {
     // padding: 23px 50px 22px 50px;
     return (
         <>
-            <div data-aos="zoom-in" className="accordion max-w-[801px] mx-auto">
+            <div id='FAQ' data-aos="zoom-in" className="accordion max-w-[801px] mx-auto">
                 {accordionData.map((item, index) => (
                     <div className="accordion-item md:pt-[23px] md:pb-[22px] md:px-[50px] px-[20px] py-[20px] md:mb-[26px] mb-[18px] md:rounded-[40.5px] rounded-[20.5px] !transition-all !duration-700 !ease-in-out" key={index}>
                         <div

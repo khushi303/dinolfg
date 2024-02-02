@@ -9,7 +9,7 @@ import TokenCrocodino from '../assets/images/webp/tokencrocochris.webp';
 const Tokenomics = () => {
     return (
         <>
-            <div className="relative">
+            <div id="Tokenomic" className="relative">
                 <img
                     src={TreeLayer}
                     alt="TreeLayer"
