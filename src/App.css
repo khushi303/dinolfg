@@ -128,7 +128,7 @@
  }
 
 .backtotop{
-    animation: Jump3 2000ms linear infinite;
+    animation: Jump3 5000ms linear infinite;
 }
 
  @keyframes Jump3 {
