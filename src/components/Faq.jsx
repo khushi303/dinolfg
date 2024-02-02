@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Accordionbtn, Accordionbtn2 } from './Iconimg';
+import { Accordionbtn } from './Iconimg';
 import Faqlayer1 from '../assets/images/webp/faqlayer1.webp';
 
 const AccodianSec = () => {
