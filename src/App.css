@@ -127,6 +127,24 @@
      z-index: 20 !important;
  }
 
+.backtotop{
+    animation: Jump3 2000ms linear infinite;
+}
+
+ @keyframes Jump3 {
+     0% {
+         transform: translateY(0);
+     }
+
+     50% {
+         transform: translateY(-20px);
+     }
+
+     100% {
+         transform: translateY(0);
+     }
+ }
+
  @keyframes Jump {
      0% {
          transform: translateY(0);
