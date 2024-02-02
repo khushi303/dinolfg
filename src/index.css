@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Chewy&display=swap');
 
+* {
+  scroll-behavior: smooth !important;
+}
+
 body {
   margin: 0;
   font-family: 'Balsamiq Sans',
@@ -11,7 +15,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #0A4740 !important;
-  scroll-behavior: smooth !important;
 }
 
 .ff_chewy {
@@ -31,6 +34,24 @@ body {
 code {
   font-family: 'Balsamiq Sans',
     sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8EC627;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #09655A;
 }
 
 /* border: 13.34px solid #0A4740 */
