@@ -25,7 +25,7 @@ const NavBar = () => {
                     <span className='text-[#8EC627]'>G</span>
                 </h2>
                 <div className='flex gap-[136px] items-center'>
-                    <ul className={`${nav ? "left-[-100%]" : "left-0"} flex max-lg:fixed gap-[28px] max-lg:z-50 items-center max-lg:top-0 max-lg:h-full max-lg:w-full max-lg:z-[7] max-lg:bg-white max-lg:transition-all max-lg:duration-300 max-lg:ease-linear max-lg:min-h-screen max-lg:flex-col max-lg:justify-center`}>
+                    <ul className={`${nav ? "left-[-100%]" : "left-0"} flex max-lg:fixed gap-[28px] max-lg:z-50 items-center max-lg:top-0 max-lg:h-full max-lg:w-full max-lg:bg-white max-lg:transition-all max-lg:duration-300 max-lg:ease-linear max-lg:min-h-screen max-lg:flex-col max-lg:justify-center`}>
                         <li><a href="#About" onClick={() => setNav(!nav)} className='ff_chewy text-[18px] font-normal text-black no-underline leading-[100%] after:absolute after:bottom-[-4px] after:left-[50%] after:w-0 after:bg-black after:h-[3px] hover:after:w-full relative after:right-0 hover:after:left-0 after:transition-all after:duration-300 after:rounded-[5px] after:ease-linear'>About</a></li>
                         <li><a href="#Tokenomic" onClick={() => setNav(!nav)} className='ff_chewy text-[18px] font-normal text-black no-underline leading-[100%] after:absolute after:bottom-[-4px] after:left-[50%] after:w-0 after:bg-black after:h-[3px] hover:after:w-full relative after:right-0 hover:after:left-0 after:transition-all after:duration-300 after:rounded-[5px] after:ease-linear'>Tokenomic</a></li>
                         <li><a href="#Roadmap" onClick={() => setNav(!nav)} className='ff_chewy text-[18px] font-normal text-black no-underline leading-[100%] after:absolute after:bottom-[-4px] after:left-[50%] after:w-0 after:bg-black after:h-[3px] hover:after:w-full relative after:right-0 hover:after:left-0 after:transition-all after:duration-300 after:rounded-[5px] after:ease-linear'>Roadmap</a></li>
@@ -50,7 +50,7 @@ const NavBar = () => {
                         <button className='lg:block hidden bg-BgBtnJoin bg-Bgsize group bg-BgPositionCenter bg-no-repeat'>
                             <p className='pt-[11px] pb-[19.57px] px-[36px] text-[18px] group-hover:text-white transition-all duration-300 ease-linear font-normal text-black ff_chewy leading-[131%]'>Join Now</p>
                         </button>
-                        <div onClick={() => setNav(!nav)} className='lg:hidden mr-[17px] w-[27px] h-[21px] relative z-[7] flex justify-between flex-col'>
+                        <div onClick={() => setNav(!nav)} className='lg:hidden mr-[17px] w-[27px] h-[21px] z-50 relative z-[7] flex justify-between flex-col'>
                             <span className={`${nav ? '' : "rotate-[50deg] translate-y-[15px]"} bg-black h-[4px] w-full duration-300 rounded-[3px] ease-linear transition-all`}></span>
                             <span className={`${nav ? '' : "hidden"} bg-black h-[4px] w-full duration-300 rounded-[3px] ease-linear transition-all`}></span>
                             <span className={`${nav ? '' : "rotate-[-50deg] translate-y-[-50%]"} bg-black h-[4px] w-full duration-300 rounded-[3px] ease-linear transition-all`}></span>
