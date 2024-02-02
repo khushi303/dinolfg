@@ -36,8 +36,8 @@ const NavBar = () => {
                             <Instagram />
                         </div></li>
                         <li className='lg:hidden'>
-                            <button className='bg-BgBtnJoin bg-Bgsize bg-BgPositionCenter bg-no-repeat'>
-                                <p className='pt-[11px] pb-[19.57px] px-[36px] text-[18px] font-normal text-black ff_chewy leading-[131%]'>Join Now</p>
+                            <button className='bg-BgBtnJoin bg-Bgsize group bg-BgPositionCenter bg-no-repeat'>
+                                <p className='pt-[11px] pb-[19.57px] px-[36px] text-[18px] group-hover:text-white transition-all duration-300 ease-linear font-normal text-black ff_chewy leading-[131%]'>Join Now</p>
                             </button>
                         </li>
                     </ul>
@@ -50,7 +50,7 @@ const NavBar = () => {
                         <button className='lg:block hidden bg-BgBtnJoin bg-Bgsize group bg-BgPositionCenter bg-no-repeat'>
                             <p className='pt-[11px] pb-[19.57px] px-[36px] text-[18px] group-hover:text-white transition-all duration-300 ease-linear font-normal text-black ff_chewy leading-[131%]'>Join Now</p>
                         </button>
-                        <div onClick={() => setNav(!nav)} className='lg:hidden mr-[17px] w-[27px] h-[21px] z-50 relative z-[7] flex justify-between flex-col'>
+                        <div onClick={() => setNav(!nav)} className='lg:hidden mr-[17px] w-[27px] h-[21px] z-50 relative flex justify-between flex-col'>
                             <span className={`${nav ? '' : "rotate-[50deg] translate-y-[15px]"} bg-black h-[4px] w-full duration-300 rounded-[3px] ease-linear transition-all`}></span>
                             <span className={`${nav ? '' : "hidden"} bg-black h-[4px] w-full duration-300 rounded-[3px] ease-linear transition-all`}></span>
                             <span className={`${nav ? '' : "rotate-[-50deg] translate-y-[-50%]"} bg-black h-[4px] w-full duration-300 rounded-[3px] ease-linear transition-all`}></span>

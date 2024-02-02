@@ -5,11 +5,13 @@ import CartoonCircle from "../assets/images/webp/CartoonCircle.webp";
 import CartoonBottomImg from "../assets/images/webp/CartoonBottomImg.webp";
 import TreeLayer from "../assets/images/webp/TreeLayer.webp";
 import TokenCrocodino from '../assets/images/webp/tokencrocochris.webp';
+import Layer11 from '../assets/images/webp/layer12.png';
 
 const Tokenomics = () => {
     return (
         <>
             <div id="Tokenomic" className="relative">
+                <img src={Layer11} alt="Layer11" className="max-w-[400px] absolute right-0 top-[16%]" />
                 <img
                     src={TreeLayer}
                     alt="TreeLayer"
