@@ -6,9 +6,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'Bgheader': "url(./assets/images/png/bgheaderr.png)",
-        'BgBtnJoin': "url(./assets/images/png/bg-btnjoin.png)",
-        'BgTimeline': "url(./assets/images/png/timelinedhased.png)"
+        'Bgheader': "url(./assets/images/webp/bgheaderr.webp)",
+        'BgBtnJoin': "url(./assets/images/webp/bg-btnjoin.webp)",
+        'BgTimeline': "url(./assets/images/webp/timelinedhased.webp)"
       },
       backgroundSize: {
         'Bgsize': "100% 100%"

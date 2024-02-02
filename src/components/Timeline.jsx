@@ -1,9 +1,9 @@
 import React from 'react';
-import heloImg from '../assets/images/png/helicopterroadmap.png';
-import TimelineDashed from '../assets/images/png/timelinedhased.png';
-import TimeChris from '../assets/images/png/timelinechristmas.png';
-import Timedinechris from '../assets/images/png/cristmascrocotime.png';
-import Timegrass from '../assets/images/png/timelinegrass.png';
+import heloImg from '../assets/images/webp/helicopterroadmap.webp';
+import TimelineDashed from '../assets/images/webp/timelinedhased.webp';
+import TimeChris from '../assets/images/webp/timelinechristmas.webp';
+import Timedinechris from '../assets/images/webp/cristmascrocotime.webp';
+import Timegrass from '../assets/images/webp/timelinegrass.webp';
 
 const Timeline = () => {
     return (

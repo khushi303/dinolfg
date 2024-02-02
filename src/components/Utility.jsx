@@ -1,9 +1,9 @@
 import React from 'react';
-import Comcrocoimg from '../assets/images/png/comcroco.png';
-import UtilityCroco from '../assets/images/png/utilitybicyclecroco.png';
-import UtilityChristmas from '../assets/images/png/utilityChristmas.png';
-import UtilityLayerimg from '../assets/images/png/utilitylayer.png';
-import TimelineLayer from '../assets/images/png/roadmaplayer.png';
+import Comcrocoimg from '../assets/images/webp/comcroco.webp';
+import UtilityCroco from '../assets/images/webp/utilitybicyclecroco.webp';
+import UtilityChristmas from '../assets/images/webp/utilityChristmas.webp';
+import UtilityLayerimg from '../assets/images/webp/utilitylayer.webp';
+import TimelineLayer from '../assets/images/webp/roadmaplayer.webp';
 
 const Utility = () => {
     return (

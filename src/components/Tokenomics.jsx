@@ -4,7 +4,7 @@ import TokenomicsCartoon from "../assets/images/webp/TokenomicsCartoon.webp";
 import CartoonCircle from "../assets/images/webp/CartoonCircle.webp";
 import CartoonBottomImg from "../assets/images/webp/CartoonBottomImg.webp";
 import TreeLayer from "../assets/images/webp/TreeLayer.webp";
-import TokenCrocodino from '../assets/images/png/tokencrocochris.png';
+import TokenCrocodino from '../assets/images/webp/tokencrocochris.webp';
 
 const Tokenomics = () => {
     return (

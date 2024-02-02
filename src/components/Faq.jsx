@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Accordionbtn } from './Iconimg';
-import Faqlayer1 from '../assets/images/png/faqlayer1.png';
+import Faqlayer1 from '../assets/images/webp/faqlayer1.webp';
 
 const AccodianSec = () => {
     const [openAccordion, setOpenAccordion] = useState(true);

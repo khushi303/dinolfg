@@ -7,7 +7,7 @@ import Timeline from './components/Timeline';
 import Faq from './components/Faq';
 import Footer from './components/Footer';
 import React, { useEffect, useState } from 'react';
-import BackToTop from './assets/images/png/upppparrr.png';
+import BackToTop from './assets/images/webp/upppparrr.webp';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Aos from 'aos';

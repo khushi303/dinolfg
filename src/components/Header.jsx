@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Tweeter, Discord, Instagram } from './Iconimg';
-import Helicopter from '../assets/images/png/aeroplane.png';
-import BicycleCroco from '../assets/images/png/bycyclecroco.png';
-import FootCycleCroco from '../assets/images/png/footcyclecroco.png';
+import Helicopter from '../assets/images/webp/aeroplane.webp';
+import BicycleCroco from '../assets/images/webp/bycyclecroco.webp';
+import FootCycleCroco from '../assets/images/webp/footcyclecroco.webp';
 
 const NavBar = () => {
     const [nav, setNav] = useState(true)

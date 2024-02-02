@@ -1,5 +1,5 @@
 import React from 'react';
-import FooterForest from '../assets/images/png/footerforestimg.png';
+import FooterForest from '../assets/images/webp/footerforestimg.webp';
 import { Tweeterimg, Discordimg, Instagramfoot } from './Iconimg';
 
 const Footer = () => {

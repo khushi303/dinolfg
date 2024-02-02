@@ -1,7 +1,7 @@
 import React from 'react';
-import AboutChristmasimg from '../assets/images/png/christmastreeabout.png';
-import AboutChristmasimg2 from '../assets/images/png/aboutchristmasimg2.png';
-import Chutkudinosorimg from '../assets/images/png/chutkudragon.png';
+import AboutChristmasimg from '../assets/images/webp/christmastreeabout.webp';
+import AboutChristmasimg2 from '../assets/images/webp/aboutchristmasimg2.webp';
+import Chutkudinosorimg from '../assets/images/webp/chutkudragon.webp';
 
 const About = () => {
     return (
