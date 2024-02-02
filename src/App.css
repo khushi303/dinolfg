@@ -67,11 +67,11 @@
  }
 
  .walking-img {
-     animation: walk2 20000s steps(12) infinite, forward 10s linear infinite;
+     animation: walk2 50000s steps(12) infinite, forward 14s linear infinite;
  }
 
  .walking-img2 {
-     animation: walk 20000s steps(12) infinite, backward 8s linear infinite;
+     animation: walk 50000s steps(12) infinite, backward 10s linear infinite;
  }
 
  @keyframes walk {
