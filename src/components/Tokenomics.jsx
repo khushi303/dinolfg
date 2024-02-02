@@ -108,13 +108,15 @@ const Tokenomics = () => {
                                 </div>
                                 <div className="flex sm:gap-[32px] gap-[20px]">
                                     <div><div className="w-[34px] h-[34px] border border-solid border-white rounded-md bg-[#23AAAC]"></div></div>
-                                    <div className="flex flex-row flex-wrap gap-[5px]">
-                                        <p className="text-[#23AAAC] leading-[119%] sm:text-[32px] text-[25px] font-normal">
-                                            95% Uniswa
-                                        </p>
-                                        <p className="text-[#23AAAC] leading-[119%] sm:text-[32px] text-[25px] font-normal">
-                                            5% Marketing
-                                        </p>
+                                    <div className="flex flex-col gap-[5px]">
+                                        <div className="flex flex-row flex-wrap gap-[5px]">
+                                            <p className="text-[#23AAAC] leading-[119%] sm:text-[32px] text-[25px] font-normal">
+                                                95% Uniswa
+                                            </p>
+                                            <p className="text-[#23AAAC] leading-[119%] sm:text-[32px] text-[25px] font-normal">
+                                                5% Marketing
+                                            </p>
+                                        </div>
                                         <p className="text-white leading-[138%] sm:text-[32px] text-[25px] font-normal">
                                             Allocation
                                         </p>

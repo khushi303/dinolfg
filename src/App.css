@@ -178,6 +178,7 @@
  }
 
  @keyframes loader {
+
      0%,
      10%,
      100% {
@@ -192,6 +193,7 @@
  }
 
  @keyframes loaderBlock {
+
      0%,
      30% {
          transform: rotate(0);
@@ -208,6 +210,7 @@
  }
 
  @keyframes loaderBlockInverse {
+
      0%,
      20% {
          transform: rotate(0);
@@ -259,6 +262,107 @@
          &:nth-child(4) {
              bottom: 0;
              right: 0;
+         }
+     }
+ }
+
+ .utility_croco {
+     animation: rider 2000s steps(9) infinite, straight 7s linear infinite;
+     margin-left: auto;
+ }
+
+ .utility_croco1 {
+     animation: rider1 2000s steps(9) infinite, straight1 7s linear infinite;
+ }
+
+ @keyframes rider {
+     0% {
+         background-position: 0px;
+     }
+
+     100% {
+         background-size: cover;
+     }
+ }
+
+ @keyframes straight {
+     0% {
+         transform: translateX(100px);
+     }
+
+     100% {
+         transform: translateX(-700px);
+
+     }
+ }
+
+ @keyframes rider1 {
+     0% {
+         background-position: 0px;
+     }
+
+     100% {
+         background-size: cover;
+     }
+ }
+
+ @keyframes straight1 {
+     0% {
+         transform: translateX(-100px);
+     }
+
+     100% {
+         transform: translateX(700px);
+
+     }
+ }
+
+ @media (min-width:1024px) {
+     @keyframes rider {
+         0% {
+             background-position: unset;
+         }
+
+         100% {
+             background-size: unset;
+         }
+     }
+
+     @keyframes straight {
+         0% {
+             transform: translateY(-124px);
+         }
+
+         50% {
+             transform: translateY(-140px);
+         }
+
+         100% {
+             transform: translateY(-124px);
+         }
+     }
+
+     @keyframes rider1 {
+         0% {
+             background-position: unset;
+         }
+
+         100% {
+             background-size: unset;
+         }
+     }
+
+     @keyframes straight1 {
+         0% {
+             transform: translateY(-35px);
+         }
+
+         50% {
+             transform: translateY(-45px);
+         }
+
+         100% {
+             transform: translateY(-35px);
          }
      }
  }

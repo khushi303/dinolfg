@@ -40,7 +40,9 @@ const AccodianSec = () => {
                             onClick={() => toggleAccordion(index)}
                         >
                             <p className='sm:text-[20px] text-[16px] font-bold text-white leading-[121%] mr-[20px]'>{item.title}</p>
-                            <button className={`${openAccordion === index ? "rotate-[-180deg]" : ""} transition-all duration-300 ease-linear`}><Accordionbtn /></button>
+                            <div className={`${openAccordion === index ? "rotate-[-180deg]" : ""} rounded-[50%] w-[36px] h-[36px] flex items-center justify-center bg-white transition-all duration-300 ease-linear`}>
+                                <Accordionbtn />
+                            </div>
                         </div>
                         <div
                             className={`accordion-content ${openAccordion === index ? "open" : ""
