@@ -66,7 +66,7 @@ const Faq = () => {
                 <h2 data-aos="zoom-in" className='sm:text-[64px] text-[40px] leading-[132%] text-center font-normal ff_chewy text-white lg:mb-[61px] mb-[35px]'>FAQs</h2>
                 <AccodianSec />
             </div>
-            <img src={Faqlayer1} alt="Faqlayer1" className='absolute top-[-16px] left-0 right-0 w-full' />
+            <img src={Faqlayer1} alt="Faqlayer1" className='absolute top-[-30px] left-0 right-0 w-full' />
         </div>
     )
 }
