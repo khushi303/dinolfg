@@ -50,7 +50,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className='overflow-hidden'>
       {screenLoading ? (
         <>
           <div className='fixed min-h-screen bg-[#09655A] top-0 left-0 right-0 bottom-0 flex items-center justify-center'>
